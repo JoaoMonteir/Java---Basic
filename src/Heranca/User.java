@@ -1,4 +1,4 @@
-package Heranca;
+package heranca;
 
 abstract class User {
     //atributo a ser herdado
