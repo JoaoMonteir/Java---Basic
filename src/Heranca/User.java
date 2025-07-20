@@ -1,21 +1,19 @@
 package Heranca;
 
 abstract class User {
-
+    //atributo a ser herdado
     String name;
 
-    // método a ser herdado
+    // métodos a serem herdados
     void greeting() {
         System.out.println("Olá, " + name + ".");
     }
 
-    abstract void confirm(); // sem corpo
+    abstract void confirm(); // método sem corpo
 }
 
 class Client extends User {
-    // método próprio da classe
-    @Override
     void confirm(){
-        System.out.println("Cadastro confirmado!");
+        System.out.println("Cadastro confirmado!"); // método com corpo
     }
 }
