@@ -1,4 +1,4 @@
-package polimorfismoSobrecarga;
+package polimorfismo;
 
 public class Animal {
 

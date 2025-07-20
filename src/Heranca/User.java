@@ -1,3 +1,5 @@
+package Heranca;
+
 abstract class User {
 
     String name;
