@@ -1,6 +1,6 @@
 package heranca;
 
-abstract class User {
+public class User {
     //atributo a ser herdado
     String name;
 
@@ -8,12 +8,7 @@ abstract class User {
     void greeting() {
         System.out.println("Olá, " + name + ".");
     }
-
-    abstract void confirm(); // método sem corpo
 }
 
 class Client extends User {
-    void confirm(){
-        System.out.println("Cadastro confirmado!"); // método com corpo
     }
-}
